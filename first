@@ -1,0 +1,147 @@
+/*
+int main()
+{
+    int arr[10]={1,2,3,4,5,6,7,8,9,10};//定义一个存放10个整数数字的数组
+    //char ch[20];
+    //float arr2[5];
+int i = 0;
+while(i<10)
+{
+    printf("%d  ",arr[i]);
+    i++;
+}
+
+    return0;
+    }
+
+
+//函数
+/*
+int Add(int x ,int y)//Add自定义函数
+{
+    int z =x+y;
+    return z;
+
+}
+int main()
+{
+
+    int num1 = 10;
+    int num2 = 20;
+     int sum9=0;
+    int a = 100;
+    int b =200;
+    //sum = Add(num1, num2);
+            sum9 = Add(a ,b);
+            printf("sum=%d\n",sum9);
+
+
+    return 0;
+}*
+
+
+
+/*int main()
+{
+int line =0;
+printf("加入比特\n");
+while(line<2000)
+{
+    printf("敲一行代码:%d\n",line);
+    line++;
+}
+
+printf("好offer\n");
+    return 0;
+}*/
+/*int main()
+{
+
+    printf("%c\n",'a');
+    return 0;
+}*/
+
+//int main()
+//{
+    //int input =0;
+        //    printf("加入比特\n");
+        //    printf("你要好好学习吗？(1/0)>:");
+            //scanf("%d",&input);
+          //  if(input==1)
+        //        printf("好offer\n");
+      //      else
+    //            printf("卖红薯\n");
+  //  return 0;
+//}
+//选择代码
+//int main()
+//{
+    //printf("%d\n",strlen("c:\test\32\test.c"));
+    //printf("%c\n,",'\32');
+    //\32--32是2个八进制数字
+    //3   2
+    //8^1 8^0
+    //3*8^1+2*8^0=24+2=26
+    //32作为8进制代表的那个十进制数字，作为ASSCII码值，32--》10进制=26--》作为ASSCII码值的符号
+    //如何数：c  :   \t  e  s  t  \32  \t  e  s  t  .  c  共13
+    //\ddd表示1-3个八进制数字如：130,\xdd  dd表示2个十六进制数字。如\x30
+    //printf("%c\n",'\'');
+    //''会被配对 所以使用\'防止识别
+    //printf("c:\\test\\32\\test.c");
+    //使用\t等于空格符号 使用\\t防止被识别
+     //\t水平制表符
+//    return 0;
+//}
+//int main()
+//{
+    //char arr1[]="abc";//数组
+    //"abc"--'a', 'b' ,'c' ,'\0'--'\0'字符串的结束标志
+    //char arr2[]={'a','b','c',0};
+    //printf("%D\n",strlen(arr1));//strlen-string length-计算字符串长度的
+    //printf("%D\n",strlen(arr2));
+        //printf("%s\n",arr1);/n换行
+        //printf("%s\n",arr2);
+  //          return 0;
+//}
+//字符串
+//
+//
+//int main ()
+//{
+    //printf("Hello,word\n");
+
+
+  //  return 0;
+//}
+
+
+
+//#define 定义标识符
+#define MAX 10
+//int main()
+//{
+    //int arr[MAX]={0};
+    //printf("%d\n",MAX);
+
+
+  //  return 0;
+//}
+//int main()
+//{
+    //计算两个数的和
+    //int num1 =0 ;
+            //int num2 = 0;
+          //  int sum =0;
+            //输入数据-使用输入函数scanf
+        //            scanf("%d%d",&num1,&num2);//取地址符号&
+      //              sum=num1+num2;
+    //                printf("sum=%d\n",sum);
+  //                  return 0;
+//}
+//int main()变量
+//{
+
+    //int a = 10;
+    //printf("%d\n",a);
+  //  return 0;
+//}
