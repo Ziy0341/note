@@ -1,0 +1,100 @@
+int main()
+{
+    int a =10;
+    int b=20;
+    int sum = Add(a,b);//()函数调用操作符
+    printf("%d\n",sum);
+    return 0;
+}*/
+/*int main()
+{
+    int a =10;
+    int b= 20;
+    int max = 0;
+    max =(a>b ? a:b);
+printf("%d\n",max);
+    return 0;
+}*/
+
+//#define  MAX 100
+//#define 可以定义宏-带参数
+
+int Max(int x, int y)
+{
+    if(x>y)
+        return x;
+    else
+        return y;
+}
+#define MAX(X,Y) (X>Y?X:Y)
+int main()
+{
+    //int a = MAX;
+    int a = 10;
+    int b= 20;
+    int max = MAX(a,b);
+    printf("max=%d\n,max");
+    max=MAX(a,b);
+    printf("max=%d\n",max);
+
+
+    return 0;
+}
+/*int main()
+{
+    int a = 10;//四个字节
+   int* p = &a;//取地址   int*是类型
+    //printf("%p\n",&a);
+    //printf("%p\n",p);
+   *p = 20;//*p解引用操作符
+   printf("a=%d\n",a);
+//有一种变量是用来存放地址的-指针变量
+    return 0;
+}*/
+/*//结构体
+//复杂对象-结构体-我们自己创造出来的一种类型
+
+struct  Book
+        {
+    char name [20];//书名c语言程序设计
+    short  price;//定价55
+
+        };
+int main()
+{
+    //利用结构体类型-创建一个该类型的结构体变量
+    struct Book b1 ={"书名",55};
+    struct Book* pb=&b1;
+    printf("%s\n",pb->name);
+    printf("%d\n",pb->price);*/
+/*    printf("%s\n",(*pb).name);
+    printf("%d\n",(*pb).price);*/
+/*printf("书名:%s\n",b1.name);
+printf("价格:%d元\n",b1.price);
+b1.price=15;
+printf("修改后的价格:%d\n",b1.price);*/
+/*    return 0;
+}*/
+
+
+/*
+int main()
+{
+    double d=3.14;
+    double* pd =&d;
+    printf("%d\n",sizeof(pd));
+   // *pd = 5.5;
+    //printf("%lf\n",d);
+   // printf("%lf\n",*pd);
+
+    //int a = 10;//申请了4个字节的空间
+    //int* p=&a;//p是一个变量-指针变量     int*是一种类型  int*找位置
+    //*p= 20;//*解引用操作符/间接访问操作符
+   // printf("%p\n",p);
+   //printf("a=%d\n",a);
+
+
+
+    return 0;
+}
+*/
